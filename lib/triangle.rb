@@ -1,6 +1,6 @@
 class Triangle
 
-  def initialize (l1,l2,l13)
+  def initialize (l1,l2,l3)
     @l1=l1
     @l2=l2
     @l3=l3
