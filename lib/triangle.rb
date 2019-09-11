@@ -9,12 +9,12 @@ class Triangle
   def kind
     if
       @l1==@l2 && @l2==@l3
-    :equilateral
+    "equilateral"
   elsif
     @l1==@l2 || @l2== @l3 || @l3==@l4
-    :isosceles
+    "isosceles"
   else
-    :scalene
+    "scalene"
   end
 end
 
