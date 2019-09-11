@@ -14,6 +14,7 @@ class Triangle
     @l1==@l2 || @l2== @l3 || @l3==@l4
     :isosceles
   else
+    @l1!=@l2 && @l2!==@l3 && @l3!=@l1
     :scalene
   end
 end
