@@ -1,4 +1,5 @@
 class Triangle
+  attr_reader :l1,:l2, :l3
   def initialize (l1,l2,l13)
     @l1=l1
     @l2=l2
