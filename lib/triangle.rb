@@ -11,7 +11,7 @@ class Triangle
       (@l1==@l2) && (@l2==@l3)
     :equilateral
   elsif
-    (@l1==@l2) || (@l2== @l3) || (@l3==@l4)
+    (@l1==@l2) || (@l2== @l3) || (@l3==@l1)
     :isosceles
   else
     (@l1!=@l2) && (@l2!=@l3) && (@l3!=@l1)
