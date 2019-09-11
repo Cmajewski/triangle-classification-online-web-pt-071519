@@ -8,13 +8,13 @@ class Triangle
 
   def kind
     if
-      @l1==@l2 && @l2==@l3 && @l3==@l1
+      (@l1==@l2) && (@l2==@l3)
     :equilateral
   elsif
-    @l1==@l2 || @l2== @l3 || @l3==@l4
+    (@l1==@l2) || (@l2== @l3) || (@l3==@l4)
     :isosceles
   else
-    @l1!=@l2 && @l2!=@l3 && @l3!=@l1
+    (@l1!=@l2) && (@l2!=@l3) && (@l3!=@l1)
     :scalene
   end
 end
